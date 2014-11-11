@@ -1,0 +1,36 @@
+.i-grid {
+	@include i-row;
+	@include i-col-output;
+}
+
+[class*='i-grid__box-'] {
+	@include i-col;
+}
+
+@include media-max(930px) {
+	.i-grid {
+
+		&__box-4 {
+			@include i-col-width(8);
+		}
+	}
+}
+@include media-max(560px) {
+	.i-grid {
+
+		&__box-4 {
+			@include i-col-width(13);
+
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+@include media-max(360px) {
+	.i-grid {
+
+		&__box-4 {
+			@include i-col-width(16);
+		}
+	}
+}

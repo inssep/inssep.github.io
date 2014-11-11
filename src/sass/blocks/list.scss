@@ -1,0 +1,34 @@
+.list {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	&__item {
+		position: relative;
+		margin: 3px 0 5px 0;
+		padding-left: 15px;
+		line-height: 1.2;
+
+		&:before {
+			@include fa-icon;
+			font-size: inherit;
+			position: absolute;
+			top: 0px;
+			left: 0;
+			margin-right: 8px;
+			content: '#{$fa-right-open}';
+			color: $gray8;
+		}
+	}
+	&__link {
+		color: $gray6;
+	}
+
+	&_reverse &__item {
+
+			&:before {
+			color: $white;
+		}
+	}
+}

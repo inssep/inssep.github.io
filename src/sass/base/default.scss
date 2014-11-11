@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+}
+body {
+	font: normal 16px/1.3 Arial, "Helvetica Neue", Helvetica, sans-serif;
+	height: 100%;
+	color: $gray6;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'CabinBold';
+	font-weight: normal;
+	margin: 40px 0 15px 0;
+	text-transform: uppercase;
+	color: $brown1;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 18px;
+}
+p {
+	margin: 15px 0;
+	line-height: 1.5;
+}
+a {
+	text-decoration: none;
+	color: $pale-green;
+}
+a:hover {
+	text-decoration: underline;
+}
+address {
+	font-style: normal;
+}

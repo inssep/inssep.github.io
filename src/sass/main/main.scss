@@ -1,0 +1,40 @@
+//===================================
+//		Variables & mixins
+//===================================
+@import '../dev/variables';
+@import '../dev/mixins';
+
+/*===================================
+		Base styles
+===================================*/
+@import '../base/fonts';
+@import '../base/normalize';
+@import '../base/default';
+
+/*===================================
+		Template
+===================================*/
+@import '../template/page';
+@import '../template/header';
+@import '../template/content';
+@import '../template/footer';
+
+/*===================================
+		Blocks
+===================================*/
+@import '../blocks/global';
+@import '../blocks/i-grid';
+@import '../blocks/logo';
+@import '../blocks/social';
+@import '../blocks/main-menu';
+@import '../blocks/search';
+@import '../blocks/button';
+@import '../blocks/slider';
+@import '../blocks/zoom-img';
+@import '../blocks/list';
+@import '../blocks/field';
+@import '../blocks/inner-nav';
+@import '../blocks/services-preview';
+@import '../blocks/latest-work';
+@import '../blocks/notebook';
+@import '../blocks/description';

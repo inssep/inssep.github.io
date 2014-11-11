@@ -1,0 +1,967 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remov",
+				"removeAttribute(${0:attrName})	Element"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"inn",
+				"innerHTML	Element"
+			],
+			[
+				"fun",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"getat",
+				"getAttribute(${0:attributeName})	Element"
+			],
+			[
+				"clas",
+				"className	Element"
+			],
+			[
+				"style",
+				"style	Style CSS"
+			],
+			[
+				"stop",
+				"stopPropagation()	Event"
+			],
+			[
+				"load",
+				"load	.load()"
+			],
+			[
+				"ani",
+				"animate	.animate()"
+			],
+			[
+				"streli",
+				"streetList"
+			],
+			[
+				"htm",
+				"html	.html()"
+			],
+			[
+				"stname",
+				"strName"
+			],
+			[
+				"thi",
+				"thisSearch"
+			],
+			[
+				"sli",
+				"slideDown	.slideDown()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"th",
+				"this	$(this)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/blocks/zoom-img.scss",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/dev/variables.scss",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 6382,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 83.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"cse",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"intalp",
+				"Package Control: Install Package"
+			],
+			[
+				"enablep",
+				"Package Control: Enable Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"an",
+				"ANF: New File"
+			],
+			[
+				"glu",
+				"Glue - Launch"
+			],
+			[
+				"gl",
+				"Glue - Launch"
+			],
+			[
+				"remopa",
+				"Package Control: Remove Package"
+			],
+			[
+				"reom",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nik/www/server/inssep.github.io",
+		"/home/nik/www/server/inssep.github.io/dist",
+		"/home/nik/www/server/inssep.github.io/dist/fonts",
+		"/home/nik/www/server/inssep.github.io/dist/img",
+		"/home/nik/www/server/inssep.github.io/dist/js",
+		"/home/nik/www/server/inssep.github.io/dist/pic",
+		"/home/nik/www/server/inssep.github.io/dist/pic/portfolio",
+		"/home/nik/www/server/inssep.github.io/src",
+		"/home/nik/www/server/inssep.github.io/src/sass",
+		"/home/nik/www/server/inssep.github.io/src/sass/main"
+	],
+	"file_history":
+	[
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/social.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/template/footer.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/main/ie8-main.scss",
+		"/home/nik/www/server/inssep.github.io/dist/js/scripts.js",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/zoom-img.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/slider.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/template/header.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/main/main.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/dev/mixins.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/dev/variables.scss",
+		"/home/nik/Downloads/font-awesome-4.2.0/scss/_variables.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/inner-nav.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/list.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/template/main-menu.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/base/fonts.scss",
+		"/home/nik/www/server/inssep.github.io/dist/css/main.css",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/search.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/main-menu.scss",
+		"/home/nik/Downloads/font-awesome-4.2.0/scss/_path.scss",
+		"/home/nik/Downloads/fontello-1321f955/css/fontello.css",
+		"/home/nik/www/server/inssep.github.io/src/sass/base/normalize.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/button.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/services-preview.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/notebook.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/latest-work.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/i-grid.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/template/content.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/base/default.scss",
+		"/home/nik/www/server/inssep.github.io/src/sass/blocks/global.scss",
+		"/home/nik/www/server/inssep.github.io/dist/index.html",
+		"/home/nik/.ssh/id_rsa.pub",
+		"/home/nik/www/server/new-portfolio/deliver/dist/css/main.css",
+		"/home/nik/www/server/new-portfolio/deliver/Gruntfile.js",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/main/main.scss",
+		"/home/nik/www/server/new-portfolio/deliver/package.json",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/page.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/slider.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/footer.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/button.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/field.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/global.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/social.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/list.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/inner-nav.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/main-menu.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/default.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/body.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/box-list.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/normalize.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/header.scss",
+		"/home/nik/www/server/new-portfolio/deliver/dist/js/libraries/jquery-1.11.1.min.js",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/dev/variables.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/social.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/fonts.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/dev/mixins.scss",
+		"/home/nik/www/server/new-portfolio/deliver/dist/js/libraries/html5shiv.min.js",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/subscribe.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/logo.scss",
+		"/home/nik/www/server/new-portfolio/deliver/dist/fonts/fontello/fontello.css",
+		"/home/nik/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/about.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/template/search.scss",
+		"/home/nik/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nik/www/server/new-portfolio/deliver/README.md",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/dev/sprites.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/dev/grids.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/var/variables.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/mix/mixins.scss",
+		"/home/nik/.config/sublime-text-3/Packages/User/GitHub.tmTheme",
+		"/home/nik/www/server/new-portfolio/deliver/dist/js/scripts.js",
+		"/home/nik/.config/sublime-text-3/Packages/User/MonokaiGray.tmTheme",
+		"/home/nik/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/home/nik/.config/sublime-text-3/Cache/Color Scheme - Default/Monokai.tmTheme.cache",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/mix/grids.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/var/fll-font.scss",
+		"/home/nik/.config/sublime-text-3/Packages/User/Phoenix Dark Blue.tmTheme",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/mix/sprites.scss",
+		"/usr/share/mc/skins/default.ini",
+		"/home/nik/.config/sublime-text-3/Packages/User/Solarized (Dark).tmTheme",
+		"/home/nik/.config/sublime-text-3/Packages/User/Monokai.tmTheme",
+		"/usr/share/mc/skins/gotar.ini",
+		"/home/nik/www/server/new-portfolio/deliver/deliver.sublime-project",
+		"/home/nik/.config/mc/ini",
+		"/usr/share/vim/vim74/colors/solarized.vim",
+		"/usr/share/vim/vim74/colors/desert.vim",
+		"/usr/share/vim/vimrc",
+		"/usr/share/vim/vim74/colors/darkocean.vim",
+		"/home/nik/.config/sublime-text-3/Packages/EasyMotion/README.md",
+		"/home/nik/.bashrc",
+		"/home/nik/.config/sublime-text-3/Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Orange.tmTheme",
+		"/home/nik/www/files/settings/settings_linux.txt",
+		"/bin/bash",
+		"/media/nik/README.diskdefines",
+		"/home/nik/www/server/new-portfolio/deliver/dist/index.html",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/mix/grids.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/mix/sprites.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/mixins.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/variables.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/sprites.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/logo.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/main-menu.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/var/colors.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/mix/i-grid.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/var.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/fa-var.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/base/var/fa-font.scss",
+		"/home/nik/www/server/new-portfolio/deliver/src/sass/blocks/ib-grid.scss",
+		"/home/nik/www/server/new-portfolio/deliver/dist/pic/head-bg.jpg",
+		"/home/nik/www/server/new-portfolio/deliver/dist/fonts/fa/fontawesome-webfont.svg",
+		"/home/nik/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/proc/sys/vm/swappiness",
+		"/home/nik/www/server/new-portfolio/deliver/.sass-cache/27118e4215bad408dccba01e788d19a5be6bf5e5/header.scssc",
+		"/home/nik/www/source/grunt/src/sass/template/header.scss",
+		"/home/nik/www/source/github/other/node/test/simple/test-http-head-response-has-no-body.js",
+		"/home/nik/www/source/github/other/node/test/simple/test-http-head-response-has-no-body-end.js",
+		"/home/nik/www/source/github/other/modernizr/src/hasEvent.js",
+		"/home/nik/www/source/github/other/jquery/test/data/headers.php",
+		"/home/nik/www/source/github/other/node/deps/v8/src/hydrogen-escape-analysis.cc",
+		"/home/nik/www/files/tools/browsers/Chrome-37/help.html",
+		"/home/nik/.config/sublime-text-3/Packages/User/bem.sublime-snippet",
+		"/home/nik/www/source/css-format.css",
+		"/home/nik/.config/sublime-text-3/Packages/User/mixin.sublime-snippet",
+		"/home/nik/.config/sublime-text-3/Packages/User/include.sublime-snippet",
+		"/home/nik/www/server/new-portfolio/.gitignore",
+		"/home/nik/www/server/new-portfolio/deliver/dist/fonts/zero.txt",
+		"/home/nik/www/source/github/template/dist/fonts/zero.txt",
+		"/home/nik/www/source/github/template/src/sass/main/main.scss",
+		"/home/nik/www/server/show-skills/business/index.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"newImgHeight",
+			"imgBig",
+			"container",
+			"containerClose",
+			"(windowHeight * 90 / 100)",
+			"(windowWidth * 90 / 100)",
+			" Math.round((windowWidth * 90 / 100))",
+			"new",
+			"Height",
+			" - 30",
+			"90",
+			"20",
+			" - 20",
+			"$white-opacity: rgba(255, 255, 255, 0.5);",
+			"left",
+			"fll",
+			"v=#{$fa-version}",
+			"#{$fa-font-path}",
+			"contains",
+			"Height",
+			"document.documentElement",
+			"Widht",
+			"ht",
+			"width",
+			"imgContainer",
+			"js-notebook-link",
+			"notebook__link",
+			">\n",
+			"sliderName",
+			"sliderName + '__nav-item_disabled'",
+			"sliderName + '__pagination-item_current'",
+			"sliderName + '__pagination-item_current",
+			"sliderName + '__pagination-item_current'",
+			"sliderList",
+			"itemCount",
+			"sliderNav",
+			"add",
+			"figure",
+			"<div class=\"i-grid__box-4\">",
+			"services-preview__content",
+			"\"latest-work\"",
+			"<div class=\"services-preview__box i-grid__box-4\">",
+			"\"services-preview\"",
+			"slider__button",
+			"<h3>Circle icons</h3>",
+			"i-gri",
+			"services-preview",
+			"services-preview__box",
+			"i-row",
+			"i-row__box ",
+			"10px",
+			"grey",
+			"template",
+			"body",
+			"f-",
+			"services-preview__item",
+			"ul",
+			"body__box",
+			"<div class=\"services-preview__wrap\">",
+			"g-border-top",
+			" /* 3 */",
+			" /* 2 */",
+			" /* 1 */",
+			"1024",
+			"_reverse",
+			"address",
+			"let",
+			"letter",
+			"div",
+			"social",
+			"soci",
+			"social_reverse",
+			"pale-brown",
+			"grey",
+			"@include f-col;",
+			"__",
+			"5",
+			"fold",
+			"foldi",
+			"bold",
+			"italic",
+			"key",
+			"{$fa",
+			"fa",
+			":before",
+			".icon",
+			" /* '' */",
+			"../font",
+			"tag",
+			"BFBFBF",
+			"#5697b8",
+			"#888888",
+			"black",
+			"yellow",
+			"\">\n",
+			"blue",
+			"bold",
+			"social__link",
+			"class",
+			"social__link",
+			"italic",
+			"<a class",
+			"span",
+			"%;\n",
+			"\"></",
+			"content",
+			"color",
+			"none",
+			"darkocean",
+			"darkred",
+			"numb",
+			"div",
+			"vinta",
+			"span",
+			"switcher",
+			"visibility: visible;",
+			"visibility",
+			"visibility: hidden;",
+			"js/",
+			"trim",
+			"space",
+			"  ",
+			"src",
+			"\n  src",
+			"  ",
+			"src",
+			"\n  src",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fa",
+			"gray",
+			"brown1",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7362,
+								7362
+							]
+						],
+						"settings":
+						{
+							"easy_motion_mode": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2963.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/sass/blocks/zoom-img.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/sass/dev/variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dist/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2311,
+								2311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 100.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "deliver.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"va",
+				"src/sass/dev/variables.scss"
+			],
+			[
+				"scri",
+				"dist/js/scripts.js"
+			],
+			[
+				"soom",
+				"src/sass/blocks/zoom-img.scss"
+			],
+			[
+				"inne",
+				"src/sass/blocks/inner-nav.scss"
+			],
+			[
+				"slid",
+				"src/sass/blocks/slider.scss"
+			],
+			[
+				"mainm",
+				"src/sass/template/main-menu.scss"
+			],
+			[
+				"list",
+				"src/sass/blocks/list.scss"
+			],
+			[
+				"foo",
+				"src/sass/template/footer.scss"
+			],
+			[
+				"so",
+				"src/sass/blocks/social.scss"
+			],
+			[
+				"font",
+				"src/sass/base/fonts.scss"
+			],
+			[
+				"hea",
+				"src/sass/template/header.scss"
+			],
+			[
+				"mais",
+				"src/sass/main/main.scss"
+			],
+			[
+				"mai",
+				"dist/css/main.css"
+			],
+			[
+				"se",
+				"src/sass/blocks/search.scss"
+			],
+			[
+				"mi",
+				"src/sass/dev/mixins.scss"
+			],
+			[
+				"var",
+				"src/sass/dev/variables.scss"
+			],
+			[
+				"sli",
+				"src/sass/blocks/slider.scss"
+			],
+			[
+				"maim",
+				"src/sass/blocks/main-menu.scss"
+			],
+			[
+				"norm",
+				"src/sass/base/normalize.scss"
+			],
+			[
+				"bu",
+				"src/sass/blocks/button.scss"
+			],
+			[
+				"def",
+				"src/sass/base/default.scss"
+			],
+			[
+				"glo",
+				"src/sass/blocks/global.scss"
+			],
+			[
+				"maisc",
+				"src/sass/main/main.scss"
+			],
+			[
+				"in",
+				"dist/index.html"
+			],
+			[
+				"he",
+				"src/sass/template/header.scss"
+			],
+			[
+				"mains",
+				"src/sass/main/main.scss"
+			],
+			[
+				"bod",
+				"src/sass/template/body.scss"
+			],
+			[
+				"bo",
+				"src/sass/template/body.scss"
+			],
+			[
+				"main-me",
+				"src/sass/template/main-menu.scss"
+			],
+			[
+				"mainsc",
+				"src/sass/main/main.scss"
+			],
+			[
+				"main",
+				"dist/css/main.css"
+			],
+			[
+				"pag",
+				"src/sass/template/page.scss"
+			],
+			[
+				"inn",
+				"src/sass/blocks/inner-nav.scss"
+			],
+			[
+				"ma",
+				"src/sass/main/main.scss"
+			],
+			[
+				"lis",
+				"src/sass/blocks/list.scss"
+			],
+			[
+				"sub",
+				"src/sass/blocks/subscribe.scss"
+			],
+			[
+				"fon",
+				"src/sass/base/fonts.scss"
+			],
+			[
+				"li",
+				"src/sass/blocks/list.scss"
+			],
+			[
+				"soc",
+				"src/sass/template/social.scss"
+			],
+			[
+				"social",
+				"src/sass/template/social.scss"
+			],
+			[
+				"fonts",
+				"src/sass/base/fonts.scss"
+			],
+			[
+				"fo",
+				"src/sass/template/footer.scss"
+			],
+			[
+				"mix",
+				"src/sass/dev/mixins.scss"
+			],
+			[
+				"logo",
+				"src/sass/template/logo.scss"
+			],
+			[
+				"ab",
+				"src/sass/blocks/about.scss"
+			],
+			[
+				"maincs",
+				"dist/css/main.css"
+			],
+			[
+				"maincss",
+				"dist/css/main.css"
+			],
+			[
+				"abou",
+				"src/sass/blocks/about.scss"
+			],
+			[
+				"lo",
+				"src/sass/template/logo.scss"
+			],
+			[
+				"log",
+				"src/sass/template/logo.scss"
+			],
+			[
+				"soci",
+				"src/sass/template/social.scss"
+			],
+			[
+				"mis",
+				"src/sass/dev/mixins.scss"
+			],
+			[
+				"gr",
+				"Gruntfile.js"
+			],
+			[
+				"gi",
+				"Gruntfile.js"
+			],
+			[
+				"page",
+				"src/sass/template/page.scss"
+			],
+			[
+				"mainen",
+				"src/sass/template/main-menu.scss"
+			],
+			[
+				"sl",
+				"src/sass/blocks/slider.scss"
+			],
+			[
+				"i",
+				"dist/index.html"
+			],
+			[
+				"headerscss",
+				"server/new-portfolio/deliver/src/sass/template/header.scss"
+			],
+			[
+				"headersc",
+				"source/grunt/src/sass/template/header.scss"
+			],
+			[
+				"head",
+				"server/new-portfolio/deliver/.sass-cache/27118e4215bad408dccba01e788d19a5be6bf5e5/header.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/www/www.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

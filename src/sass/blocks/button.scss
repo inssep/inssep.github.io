@@ -1,0 +1,38 @@
+.button {
+	font-family: 'CabinBold';
+	font-size: 14px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 12px 20px 10px 20px;
+	text-transform: uppercase;
+	color: $white;
+	border: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&_normal {
+		background-color: $pale-green;
+
+		&:hover {
+			background-color: $green;
+		}
+	}
+	&_transparent {
+		padding: 9px 20px;
+		border: 2px solid $white;
+		background-color: transparent;
+
+		&:hover {
+			background-color: transparent;
+		}
+	}
+	&_dark {
+		background-color: $gray7;
+
+		&:hover {
+			background-color: $gray5;
+		}
+	}
+}

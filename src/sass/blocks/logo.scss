@@ -1,0 +1,22 @@
+.logo {
+	@include trs-hover;
+
+	font-family: 'Pacifico';
+	font-size: 40px;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0 10px 0 3px;
+	vertical-align: top;
+	text-decoration: none;
+	color: $brown1;
+
+	&:hover {
+		text-decoration: none;
+		color: $pale-green;
+	}
+
+
+	&_reverse {
+		color: $white;
+	}
+}

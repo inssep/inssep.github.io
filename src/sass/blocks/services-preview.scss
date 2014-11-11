@@ -1,0 +1,34 @@
+.services-preview {
+	padding-top: 60px;
+
+	&__box {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 0 0 60px 0;
+		list-style: none;
+		text-align: center;
+	}
+	&__ico-wrap {
+		line-height: 90px;
+	}
+	&__ico {
+		display: inline-block;
+		vertical-align: bottom;
+
+		&_1 {
+			@include main-sprite(service-1);
+		}
+		&_2 {
+			@include main-sprite(service-2);
+		}
+		&_3 {
+			@include main-sprite(service-3);
+		}
+	}
+	&__title {
+		margin-top: 20px;
+	}
+	&__text {
+		margin-bottom: 25px;
+	}
+}

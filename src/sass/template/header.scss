@@ -1,0 +1,39 @@
+.header {
+	background-color: $white;
+
+	&__inner {
+		@include center;
+	}
+	&__intro {
+		@include clear;
+
+		padding: 36px 0 25px 0;
+	}
+	&__logo {
+		float: left;
+	}
+	&__social {
+		float: right;
+
+		padding-top: 15px;
+	}
+	&__nav {
+		@include clear;
+
+		padding: 26px 0;
+	}
+	&__menu {
+		@include f-col-width(13);
+
+		float: left;
+	}
+	&__search {
+		@include f-col-width(2);
+
+		float: right;
+
+		margin-top: -4px;
+
+		text-align: right;
+	}
+}

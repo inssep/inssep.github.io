@@ -1,0 +1,34 @@
+body {
+  min-width: 960px;
+}
+
+.page__down {
+  border: 2px solid #A7A7A7;
+  border-top: none;
+  border-bottom: none;
+}
+
+.slider__nav-item {
+  color: #B3B1B1;
+}
+.slider__nav-item_disabled:hover {
+  color: #B3B1B1;
+}
+
+.notebook {
+  padding: 0;
+  border: 5px solid #424242;
+  background: none;
+}
+
+.description {
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+}
+
+.zoom-img__overlay {
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+}
+
+/*# sourceMappingURL=ie8-main.css.map */

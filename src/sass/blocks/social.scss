@@ -1,0 +1,45 @@
+.social {
+	text-align: right;
+
+	&__link {
+		@include fa-icon;
+		@include trs-hover;
+
+		font-size: 20px;
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		margin-left: 6px;
+		text-align: center;
+		vertical-align: top;
+		line-height: 35px;
+		text-decoration: none;
+		color: $white;
+		border-radius: 50%;
+		background-color: $gray2;
+
+		&:hover {
+			text-decoration: none;
+
+			color: $brown1;
+		}
+		&_tw:before {
+			content: '#{$fa-twitter}';
+		}
+		&_fb:before {
+			content: '#{$fa-facebook}';
+		}
+		&_rs:before {
+			content: '#{$fa-rss}';
+		}
+	}
+
+	&_reverse &__link {
+		color: $brown2;
+		background-color: $gray4;
+
+		&:hover {
+			background-color: $white;
+		}
+	}
+}

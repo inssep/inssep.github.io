@@ -1,0 +1,70 @@
+.main-menu {
+	position: relative;
+
+	&__link {
+		@include trs-hover();
+
+		font-family: "CabinBold";
+		font-size: 18px;
+		display: inline-block;
+		margin-left: 4%;
+		text-align: left;
+		line-height: 1.3;
+		text-transform: uppercase;
+		color: $brown1;
+		transition: all 0.2s linear;
+
+		&:hover {
+			text-decoration: none;
+			color: $pale-green;
+		}
+		&:first-child {
+			margin-left: 0;
+		}
+		&_current {
+			color: $pale-green;
+		}
+	}
+}
+
+@include media-max(900px) {
+	.main-menu {
+		width: 200px;
+		padding-left: 30px;
+
+		&__link {
+			display: block;
+			opacity: 0;
+			height: 0;
+			overflow: hidden;
+			margin-left: 0;
+
+			&_current {
+				opacity: 1;
+				height: 23px;
+				overflow: visible;
+			}
+		}
+		&__switcher {
+			@include fa-icon;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			line-height: 23px;
+			cursor: pointer;
+			color: $brown1;
+
+			&:before {
+				content: '#{$fa-menu}';
+			}
+		}
+
+		&_open &__link {
+			opacity: 1;
+			height: 25px;
+			overflow: visible;
+		}
+	}
+}

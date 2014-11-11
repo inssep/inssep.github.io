@@ -1,0 +1,160 @@
+.footer {
+	font-size: 14px;
+	min-height: 315px;
+	margin-top: -370px;
+	padding: 55px 0 0 0;
+	background-color: $gray3;
+	color: $gray5;
+
+	p {
+		line-height: 1.6;
+	}
+	&__inner {
+		@include center;
+	}
+	&__content {
+		@include f-row;
+
+		padding-bottom: 35px;
+	}
+	&__box {
+		@include f-col;
+
+		&_about {
+			@include f-col-width(6);
+			padding-top: 20px;
+		}
+		&_contact {
+			@include f-col-width(3);
+			@include f-col-indent(1);
+		}
+		&_links {
+			@include f-col-width(3);
+		}
+		&_newsletter {
+			@include f-col-width(3);
+		}
+	}
+	&__logo {
+		float: left;
+	}
+	&__social {
+		float: right;
+		padding-top: 10px;
+	}
+	&__title {
+		margin-top: 0;
+		color: $white;
+	}
+	&__text {
+
+		&_clear {
+			@include clear;
+			clear: both;
+		}
+	}
+	&__mail {
+		color: $gray5;
+	}
+	&__code {
+		font-size: 16px;
+		font-family: 'CabinBold';
+		color: $white;
+	}
+	&__form {
+		overflow: hidden;
+	}
+	&__field {
+		display: block;
+		width: auto;
+		margin-right: 65px;
+	}
+	&__button {
+		float: right;
+	}
+	&__right-info {
+		font-size: 12px;
+		overflow: hidden;
+		padding: 30px 0;
+		border-top: 1px solid $gray10;
+	}
+	&__copyright {
+		font-family: 'CabinBold';
+		float: left;
+		margin: 0;
+		text-transform: uppercase;
+
+		span {
+			color: $white;
+		}
+	}
+	&__nav {
+		float: right;
+	}
+}
+
+//media
+@include media-max(1023px) {
+	.footer {
+		&__box {
+			&_about {
+				@include f-col-width(7);
+			}
+			&_contact {
+				@include f-col-width(4);
+			}
+			&_links {
+				display: none;
+			}
+			&_newsletter {
+				@include f-col-width(4);
+			}
+		}
+	}
+}
+@include media-max(767px) {
+	.footer {
+		&__box {
+			&_about {
+				display: none;
+			}
+			&_contact {
+				@include f-col-width(5);
+				@include f-col-indent(1);
+			}
+			&_newsletter {
+				@include f-col-width(7);
+				@include f-col-indent(2);
+			}
+		}
+
+	}
+}
+@include media-max(599px) {
+	.footer {
+		&__copyright {
+			float: none;
+		}
+		&__nav {
+			float: none;
+			margin-bottom: 20px;
+		}
+		&__title {
+			font-size: 15px;
+		}
+	}
+}
+@include media-max(439px) {
+	.footer {
+		&__box {
+			&_contact {
+				@include f-col-width(7);
+				@include f-col-indent(0);
+			}
+			&_newsletter {
+				@include f-col-width(9);
+				@include f-col-indent(0);
+			}
+		}
+	}
+}

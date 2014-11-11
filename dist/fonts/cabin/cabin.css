@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'cabinregular';
+    src: url('cabin-regular.eot');
+    src: url('cabin-regular.eot?#iefix') format('embedded-opentype'),
+         url('cabin-regular.woff') format('woff'),
+         url('cabin-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinmedium';
+    src: url('cabin-medium.eot');
+    src: url('cabin-medium.eot?#iefix') format('embedded-opentype'),
+         url('cabin-medium.woff') format('woff'),
+         url('cabin-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinsemibold';
+    src: url('cabin-semibold.eot');
+    src: url('cabin-semibold.eot?#iefix') format('embedded-opentype'),
+         url('cabin-semibold.woff') format('woff'),
+         url('cabin-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinbold';
+    src: url('cabin-bold.eot');
+    src: url('cabin-bold.eot?#iefix') format('embedded-opentype'),
+         url('cabin-bold.woff') format('woff'),
+         url('cabin-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinitalic';
+    src: url('cabin-italic.eot');
+    src: url('cabin-italic.eot?#iefix') format('embedded-opentype'),
+         url('cabin-italic.woff') format('woff'),
+         url('cabin-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinmedium_italic';
+    src: url('cabin-mediumitalic.eot');
+    src: url('cabin-mediumitalic.eot?#iefix') format('embedded-opentype'),
+         url('cabin-mediumitalic.woff') format('woff'),
+         url('cabin-mediumitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinsemibold_italic';
+    src: url('cabin-semibolditalic.eot');
+    src: url('cabin-semibolditalic.eot?#iefix') format('embedded-opentype'),
+         url('cabin-semibolditalic.woff') format('woff'),
+         url('cabin-semibolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinbold_italic';
+    src: url('cabin-bolditalic.eot');
+    src: url('cabin-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('cabin-bolditalic.woff') format('woff'),
+         url('cabin-bolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

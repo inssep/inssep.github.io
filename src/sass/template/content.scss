@@ -1,0 +1,16 @@
+.content {
+	padding: 1px 0 390px 0;
+
+	&__block {
+		@include center;
+	}
+	&__head {
+		padding: 10px 0 40px 0;
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&__line {
+		background-color: $gray11;
+	}
+}

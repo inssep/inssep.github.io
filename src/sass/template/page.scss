@@ -1,0 +1,11 @@
+.page {
+	max-width: 1600px;
+	min-width: 320px;
+	height: 100%;
+	margin: 0 auto;
+
+	&__down {
+		min-height: 100%;
+		box-shadow: 0 0 5px #7B7B7B;
+	}
+}

@@ -1,0 +1,25 @@
+.notebook {
+	padding: 4% 13% 10% 13%;
+	background: transparent url(../img/notebook.png) 0 0 no-repeat;
+	background-size: 100%;
+
+	&__link {
+		position: relative;
+		display: block;
+
+		&:hover:after {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			content: '';
+			background: transparent url(../img/notebook-hover.png) 0 0 no-repeat;
+			background-size: 100%;
+		}
+		img {
+			width: 100%;
+			vertical-align: top;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.search {
+	@include trs-hover;
+
+	font-size: 20px;
+	display: inline-block;
+	color: $brown1;
+
+	&:before {
+		@include fa-icon;
+
+		content: '#{$fa-search}';
+	}
+	&:hover {
+		text-decoration: none;
+		color: $pale-green;
+	}
+}

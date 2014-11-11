@@ -1,0 +1,27 @@
+.inner-nav {
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	&__item {
+		font-family: 'CabinBold';
+		display: inline-block;
+		text-transform: uppercase;
+
+		&:before {
+			margin: 0 5px 0 2px;
+			content: '\002F';
+		}
+		&:first-child:before {
+			content: none;
+		}
+	}
+	&__link {
+
+	}
+
+	&_color_light &__link {
+		color: $gray10;
+	}
+}

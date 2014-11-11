@@ -1,0 +1,56 @@
+.description {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+	background-color: $white-opacity1;
+
+	&__body {
+		position: relative;
+		font-size: 15px;
+		display: inline-block;
+		width: 80%;
+		max-width: 500px;
+		margin-top: 6%;
+		padding: 15px;
+		text-align: left;
+		color: $gray8;
+		border-radius: 5px;
+		border: 5px solid $gray9;
+		background-color: $white;
+	}
+	&__inner {
+
+	}
+	&__title {
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: bold;
+		margin-top: 0;
+		color: $gray9;
+	}
+	&__close {
+		@include fa-icon;
+		font-size: 19px;
+		font-style: normal;
+		position: absolute;
+		z-index: 100;
+		top: -15px;
+		right: -15px;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		line-height: 29px;
+		cursor: pointer;
+		color: $gray9;
+		border: 5px solid $gray9;
+		border-radius: 50%;
+		background-color: $white;
+
+		&:before {
+			content: '#{$fa-close}';
+		}
+	}
+}
